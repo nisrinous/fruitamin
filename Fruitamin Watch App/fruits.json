@@ -1,0 +1,72 @@
+{
+    "apple": {
+        "name": "apple",
+        "description": "Apple, raw",
+        "vitamin_a": 3.0,
+        "vitamin_b12": 0.0,
+        "vitamin_b6": 41.0,
+        "vitamin_c": 4.6,
+        "vitamin_e": 0.18,
+        "vitamin_k": 2.2
+    },
+    "avocado": {
+        "name": "avocado",
+        "description": "Avocado, raw",
+        "vitamin_a": 7.0,
+        "vitamin_b12": 0.0,
+        "vitamin_b6": 257.0,
+        "vitamin_c": 10.0,
+        "vitamin_e": 2.07,
+        "vitamin_k": 21.0
+    },
+    "banana": {
+        "name": "banana",
+        "description": "Banana, raw",
+        "vitamin_a": 3.0,
+        "vitamin_b12": 0.0,
+        "vitamin_b6": 367.0,
+        "vitamin_c": 8.7,
+        "vitamin_e": 0.1,
+        "vitamin_k": 0.5
+    },
+    "carrot": {
+        "name": "carrot",
+        "description": "Carrot, raw, salad",
+        "vitamin_a": 521.0,
+        "vitamin_b12": 0.02,
+        "vitamin_b6": 114.0,
+        "vitamin_c": 6.1,
+        "vitamin_e": 1.11,
+        "vitamin_k": 42.4
+    },
+    "orange": {
+        "name": "orange",
+        "description": "Orange, raw",
+        "vitamin_a": 11.0,
+        "vitamin_b12": 0.0,
+        "vitamin_b6": 0.06,
+        "vitamin_c": 53.2,
+        "vitamin_e": 0.18,
+        "vitamin_k": 0.0
+    },
+    "strawberry": {
+        "name": "strawberry",
+        "description": "Strawberry, raw",
+        "vitamin_a": 1.0,
+        "vitamin_b12": 0.0,
+        "vitamin_b6": 47.0,
+        "vitamin_c": 58.8,
+        "vitamin_e": 0.29,
+        "vitamin_k": 2.2
+    },
+    "peach": {
+        "name": "peach",
+        "description": "Peach, raw",
+        "vitamin_a": 24.0,
+        "vitamin_b12": 0.0,
+        "vitamin_b6": 25.0,
+        "vitamin_c": 4.1,
+        "vitamin_e": 0.73,
+        "vitamin_k": 3.0
+    }
+}

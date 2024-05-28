@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E032F18F2C05D800001AD6C2 /* HealthDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E032F18E2C05D800001AD6C2 /* HealthDataLoader.swift */; };
+		E032F1912C05D91D001AD6C2 /* VitaminAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E032F1902C05D91D001AD6C2 /* VitaminAmountView.swift */; };
+		E032F1932C05DC1E001AD6C2 /* Vitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E032F1922C05DC1E001AD6C2 /* Vitamin.swift */; };
+		E032F1952C05DCDC001AD6C2 /* VitaminsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E032F1942C05DCDC001AD6C2 /* VitaminsViewModel.swift */; };
+		E032F1972C05DD21001AD6C2 /* VitaminDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E032F1962C05DD21001AD6C2 /* VitaminDataLoader.swift */; };
+		E03679C32C035ECC006D72F0 /* UserDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03679C22C035ECC006D72F0 /* UserDataLoader.swift */; };
+		E03679C72C0360FD006D72F0 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03679C62C0360FD006D72F0 /* UserViewModel.swift */; };
+		E03679C92C036145006D72F0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03679C82C036145006D72F0 /* DashboardView.swift */; };
+		E03679CB2C0362E5006D72F0 /* UsersVitaminAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03679CA2C0362E5006D72F0 /* UsersVitaminAmountView.swift */; };
+		E03679CD2C03C4D0006D72F0 /* SuccessModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03679CC2C03C4D0006D72F0 /* SuccessModalView.swift */; };
+		E047C73D2C041A3F002C534D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E047C73C2C041A3F002C534D /* ContentView.swift */; };
+		E0C42A3F2BF74DAA00DBA16A /* Fruitamin Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E0C42A3E2BF74DAA00DBA16A /* Fruitamin Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E0C42A442BF74DAA00DBA16A /* FruitaminApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C42A432BF74DAA00DBA16A /* FruitaminApp.swift */; };
+		E0C42A462BF74DAA00DBA16A /* FruitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C42A452BF74DAA00DBA16A /* FruitsView.swift */; };
+		E0C42A482BF74DAC00DBA16A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C42A472BF74DAC00DBA16A /* Assets.xcassets */; };
+		E0C42A4B2BF74DAC00DBA16A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C42A4A2BF74DAC00DBA16A /* Preview Assets.xcassets */; };
+		E0C42A572BFC9BB200DBA16A /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C42A562BFC9BB200DBA16A /* Fruit.swift */; };
+		E0C42A5E2BFC9CD000DBA16A /* FruitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C42A5D2BFC9CD000DBA16A /* FruitsViewModel.swift */; };
+		E0C42A622BFC9D3700DBA16A /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C42A612BFC9D3700DBA16A /* FruitDetailView.swift */; };
+		E0C42A642BFC9EB600DBA16A /* FruitLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C42A632BFC9EB600DBA16A /* FruitLoader.swift */; };
+		E0C42A662BFC9FD800DBA16A /* fruits.json in Resources */ = {isa = PBXBuildFile; fileRef = E0C42A652BFC9FD800DBA16A /* fruits.json */; };
+		E0C42A682BFCA9F300DBA16A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C42A672BFCA9F300DBA16A /* User.swift */; };
+		E0C42A6A2BFDE13000DBA16A /* vitamins.json in Resources */ = {isa = PBXBuildFile; fileRef = E0C42A692BFDE13000DBA16A /* vitamins.json */; };
+		E0C42A6E2BFDE4A900DBA16A /* FruitsVitaminAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C42A6D2BFDE4A900DBA16A /* FruitsVitaminAmountView.swift */; };
+		E0C42A702BFDF99200DBA16A /* GenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C42A6F2BFDF99200DBA16A /* GenderView.swift */; };
+		E0C42A742C004EAA00DBA16A /* AgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C42A732C004EAA00DBA16A /* AgeView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0C42A402BF74DAA00DBA16A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C42A322BF74DAA00DBA16A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0C42A3D2BF74DAA00DBA16A;
+			remoteInfo = "Fruitamin Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E0C42A512BF74DAC00DBA16A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E0C42A3F2BF74DAA00DBA16A /* Fruitamin Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E032F18E2C05D800001AD6C2 /* HealthDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataLoader.swift; sourceTree = "<group>"; };
+		E032F1902C05D91D001AD6C2 /* VitaminAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminAmountView.swift; sourceTree = "<group>"; };
+		E032F1922C05DC1E001AD6C2 /* Vitamin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vitamin.swift; sourceTree = "<group>"; };
+		E032F1942C05DCDC001AD6C2 /* VitaminsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminsViewModel.swift; sourceTree = "<group>"; };
+		E032F1962C05DD21001AD6C2 /* VitaminDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminDataLoader.swift; sourceTree = "<group>"; };
+		E03679C22C035ECC006D72F0 /* UserDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataLoader.swift; sourceTree = "<group>"; };
+		E03679C62C0360FD006D72F0 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		E03679C82C036145006D72F0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		E03679CA2C0362E5006D72F0 /* UsersVitaminAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVitaminAmountView.swift; sourceTree = "<group>"; };
+		E03679CC2C03C4D0006D72F0 /* SuccessModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessModalView.swift; sourceTree = "<group>"; };
+		E047C73C2C041A3F002C534D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0C42A382BF74DAA00DBA16A /* Fruitamin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fruitamin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C42A3E2BF74DAA00DBA16A /* Fruitamin Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fruitamin Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C42A432BF74DAA00DBA16A /* FruitaminApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitaminApp.swift; sourceTree = "<group>"; };
+		E0C42A452BF74DAA00DBA16A /* FruitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsView.swift; sourceTree = "<group>"; };
+		E0C42A472BF74DAC00DBA16A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0C42A4A2BF74DAC00DBA16A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E0C42A562BFC9BB200DBA16A /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		E0C42A5D2BFC9CD000DBA16A /* FruitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewModel.swift; sourceTree = "<group>"; };
+		E0C42A612BFC9D3700DBA16A /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		E0C42A632BFC9EB600DBA16A /* FruitLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitLoader.swift; sourceTree = "<group>"; };
+		E0C42A652BFC9FD800DBA16A /* fruits.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fruits.json; sourceTree = "<group>"; };
+		E0C42A672BFCA9F300DBA16A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E0C42A692BFDE13000DBA16A /* vitamins.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = vitamins.json; path = "Fruitamin Watch App/vitamins.json"; sourceTree = SOURCE_ROOT; };
+		E0C42A6D2BFDE4A900DBA16A /* FruitsVitaminAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsVitaminAmountView.swift; sourceTree = "<group>"; };
+		E0C42A6F2BFDF99200DBA16A /* GenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderView.swift; sourceTree = "<group>"; };
+		E0C42A732C004EAA00DBA16A /* AgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0C42A3B2BF74DAA00DBA16A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0C42A312BF74DAA00DBA16A = {
+			isa = PBXGroup;
+			children = (
+				E0C42A422BF74DAA00DBA16A /* Fruitamin Watch App */,
+				E0C42A392BF74DAA00DBA16A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0C42A392BF74DAA00DBA16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0C42A382BF74DAA00DBA16A /* Fruitamin.app */,
+				E0C42A3E2BF74DAA00DBA16A /* Fruitamin Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0C42A422BF74DAA00DBA16A /* Fruitamin Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E0C42A5A2BFC9C3D00DBA16A /* Utils */,
+				E0C42A592BFC9BF800DBA16A /* View */,
+				E0C42A582BFC9BEE00DBA16A /* ViewModel */,
+				E0C42A552BFC9B9800DBA16A /* Model */,
+				E0C42A432BF74DAA00DBA16A /* FruitaminApp.swift */,
+				E0C42A652BFC9FD800DBA16A /* fruits.json */,
+				E0C42A692BFDE13000DBA16A /* vitamins.json */,
+				E0C42A472BF74DAC00DBA16A /* Assets.xcassets */,
+				E0C42A492BF74DAC00DBA16A /* Preview Content */,
+			);
+			path = "Fruitamin Watch App";
+			sourceTree = "<group>";
+		};
+		E0C42A492BF74DAC00DBA16A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E0C42A4A2BF74DAC00DBA16A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E0C42A552BFC9B9800DBA16A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0C42A562BFC9BB200DBA16A /* Fruit.swift */,
+				E032F1922C05DC1E001AD6C2 /* Vitamin.swift */,
+				E0C42A672BFCA9F300DBA16A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0C42A582BFC9BEE00DBA16A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E0C42A5D2BFC9CD000DBA16A /* FruitsViewModel.swift */,
+				E03679C62C0360FD006D72F0 /* UserViewModel.swift */,
+				E032F1942C05DCDC001AD6C2 /* VitaminsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E0C42A592BFC9BF800DBA16A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0C42A452BF74DAA00DBA16A /* FruitsView.swift */,
+				E0C42A612BFC9D3700DBA16A /* FruitDetailView.swift */,
+				E0C42A6D2BFDE4A900DBA16A /* FruitsVitaminAmountView.swift */,
+				E0C42A6F2BFDF99200DBA16A /* GenderView.swift */,
+				E0C42A732C004EAA00DBA16A /* AgeView.swift */,
+				E03679C82C036145006D72F0 /* DashboardView.swift */,
+				E03679CA2C0362E5006D72F0 /* UsersVitaminAmountView.swift */,
+				E03679CC2C03C4D0006D72F0 /* SuccessModalView.swift */,
+				E047C73C2C041A3F002C534D /* ContentView.swift */,
+				E032F1902C05D91D001AD6C2 /* VitaminAmountView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0C42A5A2BFC9C3D00DBA16A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E0C42A632BFC9EB600DBA16A /* FruitLoader.swift */,
+				E03679C22C035ECC006D72F0 /* UserDataLoader.swift */,
+				E032F18E2C05D800001AD6C2 /* HealthDataLoader.swift */,
+				E032F1962C05DD21001AD6C2 /* VitaminDataLoader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0C42A372BF74DAA00DBA16A /* Fruitamin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0C42A522BF74DAC00DBA16A /* Build configuration list for PBXNativeTarget "Fruitamin" */;
+			buildPhases = (
+				E0C42A362BF74DAA00DBA16A /* Resources */,
+				E0C42A512BF74DAC00DBA16A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0C42A412BF74DAA00DBA16A /* PBXTargetDependency */,
+			);
+			name = Fruitamin;
+			productName = Fruitamin;
+			productReference = E0C42A382BF74DAA00DBA16A /* Fruitamin.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E0C42A3D2BF74DAA00DBA16A /* Fruitamin Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0C42A4E2BF74DAC00DBA16A /* Build configuration list for PBXNativeTarget "Fruitamin Watch App" */;
+			buildPhases = (
+				E0C42A3A2BF74DAA00DBA16A /* Sources */,
+				E0C42A3B2BF74DAA00DBA16A /* Frameworks */,
+				E0C42A3C2BF74DAA00DBA16A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fruitamin Watch App";
+			productName = "Fruitamin Watch App";
+			productReference = E0C42A3E2BF74DAA00DBA16A /* Fruitamin Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0C42A322BF74DAA00DBA16A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					E0C42A372BF74DAA00DBA16A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					E0C42A3D2BF74DAA00DBA16A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = E0C42A352BF74DAA00DBA16A /* Build configuration list for PBXProject "Fruitamin" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0C42A312BF74DAA00DBA16A;
+			productRefGroup = E0C42A392BF74DAA00DBA16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0C42A372BF74DAA00DBA16A /* Fruitamin */,
+				E0C42A3D2BF74DAA00DBA16A /* Fruitamin Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0C42A362BF74DAA00DBA16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C42A3C2BF74DAA00DBA16A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C42A662BFC9FD800DBA16A /* fruits.json in Resources */,
+				E0C42A6A2BFDE13000DBA16A /* vitamins.json in Resources */,
+				E0C42A4B2BF74DAC00DBA16A /* Preview Assets.xcassets in Resources */,
+				E0C42A482BF74DAC00DBA16A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0C42A3A2BF74DAA00DBA16A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E032F1972C05DD21001AD6C2 /* VitaminDataLoader.swift in Sources */,
+				E0C42A572BFC9BB200DBA16A /* Fruit.swift in Sources */,
+				E0C42A6E2BFDE4A900DBA16A /* FruitsVitaminAmountView.swift in Sources */,
+				E032F18F2C05D800001AD6C2 /* HealthDataLoader.swift in Sources */,
+				E047C73D2C041A3F002C534D /* ContentView.swift in Sources */,
+				E032F1932C05DC1E001AD6C2 /* Vitamin.swift in Sources */,
+				E032F1952C05DCDC001AD6C2 /* VitaminsViewModel.swift in Sources */,
+				E03679CD2C03C4D0006D72F0 /* SuccessModalView.swift in Sources */,
+				E0C42A5E2BFC9CD000DBA16A /* FruitsViewModel.swift in Sources */,
+				E0C42A642BFC9EB600DBA16A /* FruitLoader.swift in Sources */,
+				E0C42A462BF74DAA00DBA16A /* FruitsView.swift in Sources */,
+				E03679C72C0360FD006D72F0 /* UserViewModel.swift in Sources */,
+				E03679C92C036145006D72F0 /* DashboardView.swift in Sources */,
+				E0C42A442BF74DAA00DBA16A /* FruitaminApp.swift in Sources */,
+				E032F1912C05D91D001AD6C2 /* VitaminAmountView.swift in Sources */,
+				E03679CB2C0362E5006D72F0 /* UsersVitaminAmountView.swift in Sources */,
+				E0C42A702BFDF99200DBA16A /* GenderView.swift in Sources */,
+				E0C42A622BFC9D3700DBA16A /* FruitDetailView.swift in Sources */,
+				E0C42A742C004EAA00DBA16A /* AgeView.swift in Sources */,
+				E0C42A682BFCA9F300DBA16A /* User.swift in Sources */,
+				E03679C32C035ECC006D72F0 /* UserDataLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0C42A412BF74DAA00DBA16A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0C42A3D2BF74DAA00DBA16A /* Fruitamin Watch App */;
+			targetProxy = E0C42A402BF74DAA00DBA16A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0C42A4C2BF74DAC00DBA16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0C42A4D2BF74DAC00DBA16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E0C42A4F2BF74DAC00DBA16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fruitamin Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FPJ93WVDR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fruitamin;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nizoe.Fruitamin.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		E0C42A502BF74DAC00DBA16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fruitamin Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FPJ93WVDR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Fruitamin;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nizoe.Fruitamin.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		E0C42A532BF74DAC00DBA16A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FPJ93WVDR;
+				INFOPLIST_KEY_CFBundleDisplayName = Fruitamin;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nizoe.Fruitamin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E0C42A542BF74DAC00DBA16A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FPJ93WVDR;
+				INFOPLIST_KEY_CFBundleDisplayName = Fruitamin;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nizoe.Fruitamin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0C42A352BF74DAA00DBA16A /* Build configuration list for PBXProject "Fruitamin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C42A4C2BF74DAC00DBA16A /* Debug */,
+				E0C42A4D2BF74DAC00DBA16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0C42A4E2BF74DAC00DBA16A /* Build configuration list for PBXNativeTarget "Fruitamin Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C42A4F2BF74DAC00DBA16A /* Debug */,
+				E0C42A502BF74DAC00DBA16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0C42A522BF74DAC00DBA16A /* Build configuration list for PBXNativeTarget "Fruitamin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C42A532BF74DAC00DBA16A /* Debug */,
+				E0C42A542BF74DAC00DBA16A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0C42A322BF74DAA00DBA16A /* Project object */;
+}

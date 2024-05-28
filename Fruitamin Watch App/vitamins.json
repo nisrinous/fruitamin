@@ -1,0 +1,66 @@
+{
+    "category1": {
+        "vitamin_a": [400, 400],
+        "vitamin_b6": [100, 100],
+        "vitamin_b12": [1, 1],
+        "vitamin_c": [40000, 40000],
+        "vitamin_e": [4000, 4000],
+        "vitamin_k": [2, 2]
+    },
+    "category2": {
+        "vitamin_a": [500, 500],
+        "vitamin_b6": [300, 300],
+        "vitamin_b12": [1, 1],
+        "vitamin_c": [50000, 50000],
+        "vitamin_e": [5000, 5000],
+        "vitamin_k": [2, 2]
+    },
+    "category3": {
+        "vitamin_a": [300, 300],
+        "vitamin_b6": [500, 500],
+        "vitamin_b12": [1, 1],
+        "vitamin_c": [15000, 15000],
+        "vitamin_e": [6000, 6000],
+        "vitamin_k": [30, 30]
+    },
+    "category4": {
+        "vitamin_a": [400, 400],
+        "vitamin_b6": [600, 600],
+        "vitamin_b12": [1, 1],
+        "vitamin_c": [25000, 25000],
+        "vitamin_e": [7000, 7000],
+        "vitamin_k": [55, 55]
+    },
+    "category5": {
+        "vitamin_a": [600, 600],
+        "vitamin_b6": [1000, 1000],
+        "vitamin_b12": [2, 2],
+        "vitamin_c": [45000, 45000],
+        "vitamin_e": [11000, 11000],
+        "vitamin_k": [60, 60]
+    },
+    "category6": {
+        "vitamin_a": [900, 700],
+        "vitamin_b6": [1300, 1200],
+        "vitamin_b12": [2, 2],
+        "vitamin_c": [75000, 65000],
+        "vitamin_e": [15000, 15000],
+        "vitamin_k": [75, 75]
+    },
+    "category7": {
+        "vitamin_a": [900, 700],
+        "vitamin_b6": [1300, 1300],
+        "vitamin_b12": [2, 2],
+        "vitamin_c": [90000, 75000],
+        "vitamin_e": [15000, 15000],
+        "vitamin_k": [120, 90]
+    },
+    "category8": {
+        "vitamin_a": [900, 700],
+        "vitamin_b6": [1700, 1500],
+        "vitamin_b12": [2, 2],
+        "vitamin_c": [90000, 75000],
+        "vitamin_e": [15000, 15000],
+        "vitamin_k": [120, 90]
+    }
+}
