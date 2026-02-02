@@ -1,5 +1,5 @@
 //
-//  DataLoader.swift
+//  FruitDataLoader.swift
 //  Fruitamin Watch App
 //
 //  Created by Nur Nisrina on 21/05/24.
