@@ -4,12 +4,6 @@
 //
 //  Created by Nur Nisrina on 21/05/24.
 //
-//
-//  FruitDetailView.swift
-//  Fruitamin Watch App
-//
-//  Created by Nur Nisrina on 21/05/24.
-//
 
 import SwiftUI
 
@@ -84,7 +78,6 @@ struct FruitDetailView: View {
     }
     
     private func addVitamins() {
-        print("addvit")
         userViewModel.updateVitaminConsumption(vitamin: "A", amount: fruit.vitaminA * Double(numberOfFruit))
         userViewModel.updateVitaminConsumption(vitamin: "B6", amount: fruit.vitaminB6 * Double(numberOfFruit))
         userViewModel.updateVitaminConsumption(vitamin: "B12", amount: fruit.vitaminB12 * Double(numberOfFruit))

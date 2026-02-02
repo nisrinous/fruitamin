@@ -8,76 +8,92 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var userAge: Int = 0
-    @State private var userGender: String = ""
-    @StateObject var viewModel: UserViewModel
-    
-    init() {
-        let user = User(
-            name: "",
-            age: 0,
-            gender: "",
-            dailyNeedVitaminA: 0,
-            dailyNeedVitaminB6: 0,
-            dailyNeedVitaminB12: 0,
-            dailyNeedVitaminC: 0,
-            dailyNeedVitaminE: 0,
-            dailyNeedVitaminK: 0,
-            consumedVitaminA: 300,
-            consumedVitaminB6: 6,
-            consumedVitaminB12: 1,
-            consumedVitaminC: 30,
-            consumedVitaminE: 5,
-            consumedVitaminK: 40
-        )
-        _viewModel = StateObject(wrappedValue: UserViewModel(user: user))
-    }
-    
+    @StateObject var viewModel = UserViewModel(user: User(
+        name: "",
+        dailyNeedVitaminA: 0,
+        dailyNeedVitaminB6: 0,
+        dailyNeedVitaminB12: 0,
+        dailyNeedVitaminC: 0,
+        dailyNeedVitaminE: 0,
+        dailyNeedVitaminK: 0,
+        consumedVitaminA: 300,
+        consumedVitaminB6: 6,
+        consumedVitaminB12: 1,
+        consumedVitaminC: 30,
+        consumedVitaminE: 5,
+        consumedVitaminK: 40
+    ), userAge: 0, userGender: "Male")
+
     func defineUserCategory() -> String {
-        if userAge == 0 {
-            return "category1"
-        } else if userAge == 1 {
+        switch viewModel.userAge {
+        case 1..<3:
             return "category2"
-        } else if userAge <= 3 {
+        case 3..<7:
             return "category3"
-        } else if userAge <= 8 {
+        case 7..<13:
             return "category4"
-        } else if userAge <= 13 {
+        case 13..<18:
             return "category5"
-        } else if userAge <= 18 {
+        case 18..<30:
             return "category6"
-        } else if userAge <= 50 {
+        case 30..<60:
             return "category7"
-        } else {
+        case 60...:
             return "category8"
+        default:
+            return "category1"
         }
     }
+
 
     var body: some View {
         NavigationView {
             ScrollView {
                 VStack {
-                    Image("logo")
-                        .resizable()
-                        .frame(width: 40, height: 40)
-                    Spacer()
-                    Spacer()
                     NavigationLink("Select age") {
-                        AgeView(selectedAge: $userAge)
+                        AgeView(selectedAge: $viewModel.userAge)
                     }
                     NavigationLink("Select gender") {
-                        GenderView(selectedGender: $userGender)
+                        GenderView(selectedGender: $viewModel.userGender)
+
                     }
                     Spacer()
                     Spacer()
                     NavigationLink("Start!") {
-                        DashboardView(viewModel: viewModel, userAge: userAge, userGender: userGender, category: defineUserCategory())
+                        DashboardView(viewModel: viewModel, category: defineUserCategory())
                     }
-                    .disabled(userAge < 1 && userGender == "")
+                    .disabled(viewModel.userAge < 1 || viewModel.userGender.isEmpty)
                     .foregroundStyle(Color("greeny"))
                     .bold()
                 }
             }
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Text("Fruitamin")
+                        .foregroundStyle(Color("purply"))
+                    
+                }
+            }
         }
     }
+}
+
+#Preview {
+    @Previewable @StateObject var viewModel = UserViewModel(user: User(
+        name: "",
+        dailyNeedVitaminA: 0,
+        dailyNeedVitaminB6: 0,
+        dailyNeedVitaminB12: 0,
+        dailyNeedVitaminC: 0,
+        dailyNeedVitaminE: 0,
+        dailyNeedVitaminK: 0,
+        consumedVitaminA: 300,
+        consumedVitaminB6: 6,
+        consumedVitaminB12: 1,
+        consumedVitaminC: 30,
+        consumedVitaminE: 5,
+        consumedVitaminK: 40
+    ), userAge: 0, userGender: "Male")
+    
+    ContentView(viewModel: viewModel)
 }
