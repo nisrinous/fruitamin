@@ -8,9 +8,7 @@
 import Foundation
 
 struct User {
-    let name: String
-    let age: Int
-    let gender: String
+    var name: String
     var dailyNeedVitaminA: Int
     var dailyNeedVitaminB6: Int
     var dailyNeedVitaminB12: Int
