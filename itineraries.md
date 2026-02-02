@@ -1,4 +1,5 @@
 
+![](https://www.flyroyalbrunei.com/india/wp-content/uploads/sites/121/2024/08/Brunei-1920x582px-KUL.png)
 # Brunei 🕌
 [Brunei Arrival Portal](https://www.imm.gov.bn/ords/r/dl_portal/public_portal/dashboard?)  
 [Ba'diah Hotel](https://maps.app.goo.gl/wFY1ucPeoJzVnsBr9)
@@ -8,13 +9,10 @@
 
 # Japan Highlights 🌸 ☃️
 
-```diff
-! text in orange
-```
-
-## 🚆 Shinkansen [(reservations link)](https://www.eki-net.com/en/jreast-train-reservation/reserve/wb/ApplicationHistoryList/Index)
+## 🚆 Shinkansen 
+[**Reservations Link**](https://www.eki-net.com/en/jreast-train-reservation/reserve/wb/ApplicationHistoryList/Index)   
 [**The Shinkansen Operation Information**](https://traininfo.jreast.co.jp/train_info/e/shinkansen.aspx)
->February, 8th 2026
+
 ```diff
 ! February, 8th 2026
 ```
@@ -24,7 +22,9 @@
 10:20 - 12.23|Shinjuku → Kawaguchiko|Fuji Excursion Limited Express|CAR 3 - 4D|
 
  
->February, 9th 2026
+```diff
+! February, 9th 2026
+```
 >>[Odoriko Schedule](https://www.jreast.co.jp/multi/traininformation/odoriko/pdf/odoriko_timetable.pdf)
 
 |Arrival → Depart|Station → Station|Shinkansen|Seat Number
@@ -37,7 +37,9 @@
 |.|.|.|.|
 16.50 - 19.20|Kawazu → Tokyo|[Odoriko](https://www.jreast.co.jp/en/multi/traininformation/odoriko/)|CAR 3 - 13A|
 
->February, 10th 2026
+```diff
+! February, 10th 2026
+```
 >> [Juetsu Schedule](https://www.jreast.co.jp/aas/20200522_jyouetu_eg_03.pdf)
 
 |Arrival → Depart|Station → Station|Shinkansen|Seat Number
