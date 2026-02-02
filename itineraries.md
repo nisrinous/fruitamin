@@ -5,12 +5,12 @@
 + PNR:   17G89K 
 ```
 
-|Flight Number|Route|Date|Depart|Arrive| Gate / Terminal | Seat |
-|:-|:-|:-|:-|:-|:-|:-|
-|BI738|CGK → BWN| Sat, 7 Feb|06:15 WIB|09:45||26A|
-|BI695|BWN → JP|Sun, 8 Feb|00:50 BNT (23:50 WIB prev day)|07:30 JST (05:30 WIB)||26A|
-|BI696|JP → BWN|Fri, 13 Feb|11:45 JST (09:45 WIB)|17:15 BNT (15:15 WIB)||26K|
-|BI737|BWN → CGK|Sat, 14 Feb|00:35 BNT (23:35 WIB prev day)|01:55 WIB||26A|
+|Flight|Date|Depart|Arrive| Terminal | Seat |
+|:-|:-|:-|:-|:-|:-|
+|**BI738**<br>CGK → BWN|Sat, 7 Feb|06:15 WIB|09:45||26A|
+|**BI695**<br>BWN → JP|Sun, 8 Feb|00:50 BNT<br>23:50 WIB prev day|07:30 JST<br>05:30 WIB||26A|
+|**BI696**<br>JP → BWN|Fri, 13 Feb|11:45 JST<br>09:45 WIB|17:15 BNT<br>15:15 WIB||26K|
+|**BI737**<br>BWN → CGK|Sat, 14 Feb|00:35 BNT<br>23:35 WIB prev day|01:55 WIB||26A|
 
 ---
 
