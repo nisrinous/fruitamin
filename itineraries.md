@@ -8,10 +8,16 @@
 
 # Japan Highlights 🌸 ☃️
 
+```diff
+! text in orange
+```
+
 ## 🚆 Shinkansen [(reservations link)](https://www.eki-net.com/en/jreast-train-reservation/reserve/wb/ApplicationHistoryList/Index)
 [**The Shinkansen Operation Information**](https://traininfo.jreast.co.jp/train_info/e/shinkansen.aspx)
 >February, 8th 2026
-
+```diff
+! February, 8th 2026
+```
 |Arrival → Depart|Station → Station|Shinkansen|Seat Number
 |:-|:-|:-|:-|
 08:05 - 09.45|Narita Airport T1 → Shinjuku|[NEX Limited Express](https://www.jreast.co.jp/en/multi/nex/)|CAR 3 - 14A|
@@ -69,13 +75,13 @@
 4. [Buy sakura manju](https://maps.app.goo.gl/ZUzr4oAaitx76hwaA)
 
 ## February, 10th 2026 ☃️ ⛷️ ❄️
-![](https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_863/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/uxkda0id3fquxygbak3b/GALAYuzawaSkiResort1DaySkiLessonsinNiigata.jpg)
+![](https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_463/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/uxkda0id3fquxygbak3b/GALAYuzawaSkiResort1DaySkiLessonsinNiigata.jpg)
 [GALA YUZAWAAA](https://maps.app.goo.gl/Kf318CatKdq4sqVj6)
 
-![](https://lh3.googleusercontent.com/proxy/z50nPF4pIZf_w4Hbh_QyXhjZFdQl3FUbA5iM3UsUnuHwU202Z20n_rs5HNOfRCW-JfCZcCXLtHy8538enf6NQ61Wlve7HexscPd5PiuWAmxPJbXJJd2BM-7jfFHfW0Dhw2JpwDlsMg5eqWFwuxv6UaVjBHJ6kOw=s1360-w1360-h215)![](https://lh3.googleusercontent.com/p/AF1QipOpE8s9BECms9onzwAhml_jcptJZltFk5xcXW6w=s1340-w1300-h215)
+![](https://lh3.googleusercontent.com/proxy/z50nPF4pIZf_w4Hbh_QyXhjZFdQl3FUbA5iM3UsUnuHwU202Z20n_rs5HNOfRCW-JfCZcCXLtHy8538enf6NQ61Wlve7HexscPd5PiuWAmxPJbXJJd2BM-7jfFHfW0Dhw2JpwDlsMg5eqWFwuxv6UaVjBHJ6kOw=s1360-w1360-h200)![](https://lh3.googleusercontent.com/p/AF1QipOpE8s9BECms9onzwAhml_jcptJZltFk5xcXW6w=s1340-w1300-h200)
 [TAKARAGAWA ONSENNN](https://maps.app.goo.gl/Gsm4P4MiCqcVV1wY7)
 
-## 🛍️ February, 11th 2026 👘 🌃 
+## 🛍️ 👘 February, 11th 2026 
 ![](https://yae-japan.com/wp/wp-content/uploads/2018/06/m1-2.jpg)![](https://kimono-ren.com/en/img/mens01.jpg)
 1. [Sewa Kimono]()
 2. [Belanja]()
