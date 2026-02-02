@@ -10,9 +10,13 @@ import Combine
 
 class UserViewModel: ObservableObject {
     @Published var user: User
+    @Published var userAge: Int
+    @Published var userGender: String
 
-    init(user: User) {
+    init(user: User, userAge: Int, userGender: String) {
         self.user = user
+        self.userAge = userAge
+        self.userGender = userGender
     }
 
     func updateVitaminConsumption(vitamin: String, amount: Double) {
