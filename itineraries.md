@@ -40,7 +40,7 @@
 ```diff
 ! February, 9th 2026
 ```
->>[Odoriko Schedule](https://www.jreast.co.jp/multi/traininformation/odoriko/pdf/odoriko_timetable.pdf)
+>[Odoriko Schedule](https://www.jreast.co.jp/multi/traininformation/odoriko/pdf/odoriko_timetable.pdf)
 
 |Arrival → Depart|Station → Station|Shinkansen|Seat Number
 |:-|:-|:-|:-|
@@ -55,7 +55,7 @@
 ```diff
 ! February, 10th 2026
 ```
->> [Juetsu Schedule](https://www.jreast.co.jp/aas/20200522_jyouetu_eg_03.pdf)
+>[Juetsu Schedule](https://www.jreast.co.jp/aas/20200522_jyouetu_eg_03.pdf)
 
 |Arrival → Depart|Station → Station|Shinkansen|Seat Number
 |:-|:-|:-|:-|
@@ -73,12 +73,10 @@
 1. Buy 1-day [bus](https://ticket.jorudan.co.jp/fujikyubus/ksm-2d/en/file/Jorudan_fujikyubus-ksm-2d_routemap_20240425.pdf) ticket [outside Kawaguchiko Station](https://ticket.jorudan.co.jp/fujikyubus/ksm-2d/en/?sitein=qr_FujikyuBus_Official_leafret)
 
     -  Red line
-
-- [KLOOK] [Fuji Ropeway](https://maps.app.goo.gl/3qi2fTpfTkrK8W1C9) 
-- [Oishi park](https://maps.app.goo.gl/zo3ZyFNmXSCd2xhN8)
+        - [KLOOK] [Fuji Ropeway](https://maps.app.goo.gl/3qi2fTpfTkrK8W1C9) 
+        - [Oishi park](https://maps.app.goo.gl/zo3ZyFNmXSCd2xhN8)
     -  Blue line
-
-- [Forest Mall Kawaguchiko](https://maps.app.goo.gl/ys3y9Caxayg9ELtV8)
+        - [Forest Mall Kawaguchiko](https://maps.app.goo.gl/ys3y9Caxayg9ELtV8)
 
 2. [Store luggage](https://maps.app.goo.gl/FVHYrgWr2hDJ9YJS8)
 3. [Agoda] [Kagelow Hotel](https://maps.app.goo.gl/vvNHzfZvdWhS7mzb7)
@@ -95,7 +93,7 @@
 ![](https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1295,h_463/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/uxkda0id3fquxygbak3b/GALAYuzawaSkiResort1DaySkiLessonsinNiigata.jpg)
 [GALA YUZAWAAA](https://maps.app.goo.gl/Kf318CatKdq4sqVj6)
 
-![](https://lh3.googleusercontent.com/proxy/z50nPF4pIZf_w4Hbh_QyXhjZFdQl3FUbA5iM3UsUnuHwU202Z20n_rs5HNOfRCW-JfCZcCXLtHy8538enf6NQ61Wlve7HexscPd5PiuWAmxPJbXJJd2BM-7jfFHfW0Dhw2JpwDlsMg5eqWFwuxv6UaVjBHJ6kOw=s1360-w1360-h200)![](https://lh3.googleusercontent.com/p/AF1QipOpE8s9BECms9onzwAhml_jcptJZltFk5xcXW6w=s1340-w1300-h200)
+![](https://lh3.googleusercontent.com/proxy/z50nPF4pIZf_w4Hbh_QyXhjZFdQl3FUbA5iM3UsUnuHwU202Z20n_rs5HNOfRCW-JfCZcCXLtHy8538enf6NQ61Wlve7HexscPd5PiuWAmxPJbXJJd2BM-7jfFHfW0Dhw2JpwDlsMg5eqWFwuxv6UaVjBHJ6kOw=s1360-w1360-h195)![](https://lh3.googleusercontent.com/p/AF1QipOpE8s9BECms9onzwAhml_jcptJZltFk5xcXW6w=s1340-w1300-h195)
 [TAKARAGAWA ONSENNN](https://maps.app.goo.gl/Gsm4P4MiCqcVV1wY7)
 
 ### 🛍️ 👘 February, 11th 2026 
