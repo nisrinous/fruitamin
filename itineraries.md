@@ -109,8 +109,19 @@
 
 ![](https://sometimeshome.com/wp-content/uploads/2017/09/sometimes_home-tokyo_disneysea-photos_advice_0025.jpg)
 
-suica ijo di narita, daftarin ke jr east. jd suica sm jr wide pass aja
 
+
+
+```diff
++ Notes
+```
+
+nyampe narita tukerin reservedss shinkansenss
+suica ijo di narita
+daftarin ke jr east
+jd suica sm jr wide pass aja
 isi visit japan
 esim
-fuji q highland
+ambil uang di atm sevel (forex bca)
+belanja jgn di mall
+scan buat freetax after imigrasi
