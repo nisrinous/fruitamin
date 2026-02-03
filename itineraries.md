@@ -113,15 +113,15 @@
 
 
 ```diff
-+ Notes
+- Notes
 ```
 
-nyampe narita tukerin reservedss shinkansenss
-suica ijo di narita
-daftarin ke jr east
-jd suica sm jr wide pass aja
-isi visit japan
-esim
-ambil uang di atm sevel (forex bca)
-belanja jgn di mall
-scan buat freetax after imigrasi
+- nyampe narita tukerin reservedss shinkansenss
+- suica ijo di narita
+- daftarin ke jr east
+- jd suica sm jr wide pass aja
+- isi visit japan
+- esim
+- ambil uang di atm sevel (forex bca)
+- belanja jgn di mall
+- scan buat freetax after imigrasi
